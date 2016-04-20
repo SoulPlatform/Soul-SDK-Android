@@ -7,14 +7,14 @@ SoulSDK предоставляет собой набор удобных инст
  allprojects {
     repositories {
         jcenter()
-        maven { url ‘https://jitpack.io'} // <—— эту строку
+        maven { url 'https://jitpack.io'} // <—— эту строку
     }
 }
 ```
 затем в build.gradle *модуля*, в котором собираетесь использовать SoulSDK:
 ```java
 dependencies {
-// другие зависимости….
+// другие зависимости…
 // …
     compile 'org.bitbucket.kitttn:soulsdk:0.20'
 }
