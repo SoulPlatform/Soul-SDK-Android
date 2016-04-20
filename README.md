@@ -1,24 +1,7 @@
 Soulplatform – это mBaaS (mobile backend as a service) облачный сервис, позволяющий создавать и эксплуатировать приложения без необходимости написания server-side кода, поднятия собственных серверов и их поддержки.
 # Руководство для Android
 SoulSDK предоставляет собой набор удобных инструментов для работы с Soulplatform API.
-## Установка
-Добавте в build.gradle вашего *проекта*:
-```java
- allprojects {
-    repositories {
-        jcenter()
-        maven { url 'https://jitpack.io'} // <—— эту строку
-    }
-}
-```
-затем в build.gradle *модуля*, в котором собираетесь использовать SoulSDK:
-```java
-dependencies {
-// другие зависимости…
-// …
-    compile 'org.bitbucket.kitttn:soulsdk:0.20'
-}
-```
+
 ## Инициализация
  Добавте следующие строки в классе Application в метод onCreate():
 ```java
