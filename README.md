@@ -8,7 +8,7 @@ SoulSDK предоставляет собой набор удобных инст
  allprojects {
     repositories {
         jcenter()
-        maven { url ‘https://jitpack.io'} // <—— эту строку
+        maven { url 'https://jitpack.io'} // <—— эту строку
     }
 }
 ```
