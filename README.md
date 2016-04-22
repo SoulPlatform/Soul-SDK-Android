@@ -178,6 +178,15 @@ public class AuthActivity extends Activity {
 }
 ```
 
+### Временная простая авторизация
+
+Во время хакатона, можно быстро и просто создать пользователя и залогиниться:
+
+```java
+ SoulAuth.registerWithPass(String login, String pass, SoulCallback<AuthorizationResponse> soulCallback);
+ //...
+ SoulAuth.loginWithPass(String login, String pass, SoulCallback<AuthorizationResponse> soulCallback);
+```
 
 ## Пример работы с авторизованным пользователем
 
