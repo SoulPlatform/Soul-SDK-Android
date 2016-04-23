@@ -17,7 +17,7 @@ SoulSDK предоставляет собой набор удобных инст
 dependencies {
 // другие зависимости….
 // …
-    compile 'org.bitbucket.kitttn:soulsdk:0.25'
+    compile 'org.bitbucket.kitttn:soulsdk:0.30'
 }
 ```
 
